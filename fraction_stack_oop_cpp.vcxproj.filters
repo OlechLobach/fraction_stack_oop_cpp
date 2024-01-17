@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="main">
+      <UniqueIdentifier>{dc6278ea-f8c4-49c1-b82d-83c08975152e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="stack">
+      <UniqueIdentifier>{8bfbc23b-bf61-44a4-b338-28a45a14ea9a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stack.h">
+      <Filter>stack</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
